@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 server '161.35.3.230', user: 'rkyankya', roles: %w[app db web]
+set :stage, :production
+set :branch, "develop"
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.

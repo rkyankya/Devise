@@ -20,7 +20,7 @@ set :passenger_restart_with_touch, true
 
 set :puma_threads, [4, 16]
 
-# Default branch is :master
+# Default branch is :develop
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
